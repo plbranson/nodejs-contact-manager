@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-contact-manager",
+  "version": "1.0.0",
+  "description": "NodeJS Contact Manager",
+  "main": "./server/bin/www",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plbranson/nodejs-contact-manager.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Patrick L. Branson",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/plbranson/nodejs-contact-manager/issues"
+  },
+  "homepage": "https://github.com/plbranson/nodejs-contact-manager#readme",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
