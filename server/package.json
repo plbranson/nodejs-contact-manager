@@ -1,0 +1,43 @@
+{
+  "name": "nodejs-contact-manager-server",
+  "version": "1.0.0",
+  "description": "NodeJS Contact Manager Server",
+  "main": "./bin/www",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plbranson/nodejs-contact-manager.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "cors",
+    "helmet",
+    "dotenv",
+    "express",
+    "morgan",
+    "cookie-parser",
+    "nodemon",
+    "compression",
+    "javascript"
+  ],
+  "author": "Patrick L. Branson",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/plbranson/nodejs-contact-manager/issues"
+  },
+  "homepage": "https://github.com/plbranson/nodejs-contact-manager#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
